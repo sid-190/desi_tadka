@@ -63,4 +63,5 @@ group :test do
 end
 
 gem "haml"
-
+gem "pg"
+gem "dotenv-rails", groups: [:development, :test]
